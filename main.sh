@@ -27,7 +27,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${BlueBee}╔════════════════════════════════════════════════╗${NC}"
-echo -e "\033[96;1m               LUNATIC TUNNELING               \033[0m"
+echo -e "\033[96;1m               LUNAMAYA TUNNELING               \033[0m"
 echo -e "${BlueBee}╚════════════════════════════════════════════════╝${NC}"
 echo ""
 echo ""
@@ -89,9 +89,9 @@ echo -e "\e[32mloading...\e[0m"
 clear
 clear
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/LunaticBackend/izinsc/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/king-vpn/lunamaya/master/izinsc/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/LunaticBackend/izinsc/main/ip | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/king-vpn/lunamaya/master/izinsc/ip | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -110,7 +110,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/LunaticBackend/izinsc/main/ip | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/king-vpn/lunamaya/master/izinsc/ip | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -118,7 +118,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/LunaticBackend/ScLt/main/"
+REPO="https://raw.githubusercontent.com/king-vpn/lunamaya/master"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -216,8 +216,8 @@ fi
 
 # // Get // No delete
 TIMES="10"
-CHATID="6617783693"
-KEY="6765354515:AAFpqLvAUPVvjgJmQQySIrwkc3bmi7t3QEc"
+CHATID="1793095437"
+KEY="6836623482:AAEjoUyMl6e6bq6uFaRScZUzQ4V4LcvWdv8"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 
 # // install paket
@@ -308,8 +308,8 @@ fi
 }
 clear
 restart_system() {
-USRSC=$(wget -qO- https://raw.githubusercontent.com/LunaticBackend/izinsc/main/ip | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/LunaticBackend/izinsc/main/ip | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://raw.githubusercontent.com/king-vpn/lunamaya/master/izinsc/ip | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://raw.githubusercontent.com/king-vpn/lunamaya/master/izinsc/ip | grep $ipsaya | awk '{print $3}')
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
@@ -325,7 +325,7 @@ TEXT="
 <code>PW     : </code><code>$Password</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/sanzvpn"},{"text":"Contack","url":"https://wa.me/6281295819429"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/kingvpn77"},{"text":"Contack","url":"https://wa.me/6281315010096"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -487,7 +487,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service limit Quota"
-wget "http://raw.githubusercontent.com/LunaticBackend/ScLt/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh"
+wget "http://raw.githubusercontent.com/king-vpn/lunamaya/master/Fls/limit.sh && chmod +x limit.sh && ./limit.sh"
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}Fls/limit-ip"
 chmod +x /usr/bin/*
@@ -887,9 +887,9 @@ echo -e "\e[94;1m╔════════════════════
 echo -e "\e[96;1m               ----[ LT PROJECT ]----                    \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
 echo ""
-echo -e "\e[95;1m  Whatsapp : 082240074362 \e[0m"
-echo -e "\e[95;1m  Telegram : @LunaticTunnel \e[0m"
-echo -e "\e[95;1m  Facebook : Dean \e[0m"
+echo -e "\e[95;1m  Whatsapp : 081315010096 \e[0m"
+echo -e "\e[95;1m  Telegram : @Lunamaya Tunnel \e[0m"
+echo -e "\e[95;1m  Facebook : lunamaya \e[0m"
 echo ""
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
 echo -e "\e[92;1m            ----[ INSTALL SUCCES ]----                   \e[0m"
