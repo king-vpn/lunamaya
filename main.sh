@@ -623,7 +623,7 @@ apt install rclone -y
 printf "q\n" | rclone config
 wget -O /root/.config/rclone/rclone.conf "${REPO}Cfg/rclone.conf"
 cd /bin
-git clone  https://github.com/LunaticBackend/wondershaper.git
+git clone  https://github.com/kingvpn/wondershaper.git
 cd wondershaper
 sudo make install
 cd
@@ -884,10 +884,10 @@ clear
 echo -e ""
 echo -e ""
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
-echo -e "\e[96;1m               ----[ LT PROJECT ]----                    \e[0m"
+echo -e "\e[96;1m               ----[ LM PROJECT ]----                    \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
 echo ""
-echo -e "\e[95;1m  Whatsapp : 081315010096 \e[0m"
+echo -e "\e[95;1m  Whatsapp : 08131501009X \e[0m"
 echo -e "\e[95;1m  Telegram : @Lunamaya Tunnel \e[0m"
 echo -e "\e[95;1m  Facebook : lunamaya \e[0m"
 echo ""
