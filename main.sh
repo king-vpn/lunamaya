@@ -321,8 +321,6 @@ TEXT="
 <code>Time   : </code><code>$TIMEZONE</code>
 <code>Ip vps : </code><code>$ipsaya</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
-<code>user   : </code><code>$Username</code>
-<code>PW     : </code><code>$Password</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/kingvpn77"},{"text":"Contack","url":"https://wa.me/6281315010096"}]]}'
